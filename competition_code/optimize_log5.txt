@@ -1,0 +1,48 @@
+Loaded 2687 route points, starting avg 73.9 mph, max 115.0 mph
+WARNING: Version mismatch detected: You are trying to connect to a simulator that might be incompatible with this API 
+WARNING: Client API version     = 0.9.12 
+WARNING: Simulator API version  = 0.9.12-dirty 
+
+=== Iteration 1/10 | avg 73.9 mph, max 115.0 mph ===
+Result: collision at tick 1100, route idx 450
+Backed off speed in waypoints [438, 462) around the failure point.
+
+=== Iteration 2/10 | avg 73.8 mph, max 115.0 mph ===
+Result: collision at tick 1108, route idx 449
+Backed off speed in waypoints [437, 461) around the failure point.
+
+=== Iteration 3/10 | avg 73.7 mph, max 115.0 mph ===
+Result: collision at tick 2502, route idx 1061
+Backed off speed in waypoints [1049, 1073) around the failure point.
+
+=== Iteration 4/10 | avg 73.6 mph, max 115.0 mph ===
+Result: collision at tick 2497, route idx 1060
+Backed off speed in waypoints [1048, 1072) around the failure point.
+
+=== Iteration 5/10 | avg 73.5 mph, max 115.0 mph ===
+Result: collision at tick 2494, route idx 1060
+Backed off speed in waypoints [1048, 1072) around the failure point.
+
+=== Iteration 6/10 | avg 73.4 mph, max 115.0 mph ===
+Result: collision at tick 2494, route idx 1060
+Backed off speed in waypoints [1048, 1072) around the failure point.
+
+=== Iteration 7/10 | avg 73.3 mph, max 115.0 mph ===
+Result: collision at tick 2493, route idx 1059
+Backed off speed in waypoints [1047, 1071) around the failure point.
+
+=== Iteration 8/10 | avg 73.3 mph, max 115.0 mph ===
+Result: collision at tick 2490, route idx 1058
+Backed off speed in waypoints [1046, 1070) around the failure point.
+
+=== Iteration 9/10 | avg 73.2 mph, max 115.0 mph ===
+Result: collision at tick 2491, route idx 1058
+Backed off speed in waypoints [1046, 1070) around the failure point.
+
+=== Iteration 10/10 | avg 73.1 mph, max 115.0 mph ===
+Result: collision at tick 2489, route idx 1058
+Backed off speed in waypoints [1046, 1070) around the failure point.
+ROAR_PY_CARLA: Cleaning up actor instance map
+
+Done. No iteration ever completed a full clean lap - nothing was saved. The failures weren't fixed by lowering speed, so this points to a control/logic issue rather than pure speed being too high (see the per-iteration failure locations above).
+ROAR_PY_CARLA: Cleaning up actor instance map

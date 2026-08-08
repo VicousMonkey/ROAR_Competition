@@ -1,0 +1,64 @@
+Loaded 2687 route points, starting avg 73.9 mph, max 115.0 mph
+WARNING: Version mismatch detected: You are trying to connect to a simulator that might be incompatible with this API 
+WARNING: Client API version     = 0.9.12 
+WARNING: Simulator API version  = 0.9.12-dirty 
+
+=== Iteration 1/25 | avg 73.9 mph, max 115.0 mph ===
+Result: collision at tick 1103, route idx 450
+Backed off speed in waypoints [405, 495) around the failure point.
+
+=== Iteration 2/25 | avg 73.6 mph, max 115.0 mph ===
+Result: collision at tick 2427, route idx 1045
+Backed off speed in waypoints [1000, 1090) around the failure point.
+
+=== Iteration 3/25 | avg 73.1 mph, max 115.0 mph ===
+Result: collision at tick 2426, route idx 1042
+Backed off speed in waypoints [997, 1087) around the failure point.
+
+=== Iteration 4/25 | avg 72.7 mph, max 115.0 mph ===
+Result: collision at tick 2646, route idx 1158
+Backed off speed in waypoints [1113, 1203) around the failure point.
+
+=== Iteration 5/25 | avg 72.2 mph, max 115.0 mph ===
+Result: collision at tick 2648, route idx 1158
+Backed off speed in waypoints [1113, 1203) around the failure point.
+
+=== Iteration 6/25 | avg 71.7 mph, max 115.0 mph ===
+Result: collision at tick 2864, route idx 1254
+Backed off speed in waypoints [1209, 1299) around the failure point.
+
+=== Iteration 7/25 | avg 71.1 mph, max 115.0 mph ===
+Result: collision at tick 2860, route idx 1253
+Backed off speed in waypoints [1208, 1298) around the failure point.
+
+=== Iteration 8/25 | avg 70.7 mph, max 115.0 mph ===
+Result: collision at tick 2907, route idx 1272
+Backed off speed in waypoints [1227, 1317) around the failure point.
+
+=== Iteration 9/25 | avg 70.3 mph, max 115.0 mph ===
+Result: timeout at tick 3499
+Backed off speed in waypoints [0, 45) around the failure point.
+
+=== Iteration 10/25 | avg 70.2 mph, max 115.0 mph ===
+Result: collision at tick 1188, route idx 449
+Backed off speed in waypoints [404, 494) around the failure point.
+
+=== Iteration 11/25 | avg 70.0 mph, max 115.0 mph ===
+Result: timeout at tick 3499
+Backed off speed in waypoints [0, 45) around the failure point.
+
+=== Iteration 12/25 | avg 69.9 mph, max 115.0 mph ===
+ROAR_PY_CARLA: Cleaning up actor instance map
+Traceback (most recent call last):
+  File "optimize_route_speed.py", line 252, in <module>
+    asyncio.run(main())
+  File "C:\Users\Sid\miniconda3\envs\roar_competition\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\Sid\miniconda3\envs\roar_competition\lib\asyncio\base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "optimize_route_speed.py", line 213, in main
+    result = await run_attempt(world, track_waypoints, route_waypoints, speed_profile, args.max_ticks)
+  File "optimize_route_speed.py", line 72, in run_attempt
+    location_sensor = vehicle.attach_location_in_world_sensor()
+AttributeError: 'NoneType' object has no attribute 'attach_location_in_world_sensor'
+ROAR_PY_CARLA: Cleaning up actor instance map

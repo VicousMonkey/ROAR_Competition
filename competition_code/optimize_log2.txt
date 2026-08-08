@@ -1,0 +1,40 @@
+Loaded 2687 route points, starting avg 73.9 mph, max 115.0 mph
+WARNING: Version mismatch detected: You are trying to connect to a simulator that might be incompatible with this API 
+WARNING: Client API version     = 0.9.12 
+WARNING: Simulator API version  = 0.9.12-dirty 
+
+=== Iteration 1/8 | avg 73.9 mph, max 115.0 mph ===
+Result: offtrack at tick 74, route idx 1
+Backed off speed in waypoints [0, 13) around the failure point.
+
+=== Iteration 2/8 | avg 73.8 mph, max 115.0 mph ===
+Result: offtrack at tick 86, route idx 1
+Backed off speed in waypoints [0, 13) around the failure point.
+
+=== Iteration 3/8 | avg 73.8 mph, max 115.0 mph ===
+Result: offtrack at tick 103, route idx 1
+Backed off speed in waypoints [0, 13) around the failure point.
+
+=== Iteration 4/8 | avg 73.8 mph, max 115.0 mph ===
+Result: offtrack at tick 142, route idx 1
+Backed off speed in waypoints [0, 13) around the failure point.
+
+=== Iteration 5/8 | avg 73.8 mph, max 115.0 mph ===
+Result: offtrack at tick 157, route idx 1
+Backed off speed in waypoints [0, 13) around the failure point.
+
+=== Iteration 6/8 | avg 73.8 mph, max 115.0 mph ===
+Result: offtrack at tick 165, route idx 1
+Backed off speed in waypoints [0, 13) around the failure point.
+
+=== Iteration 7/8 | avg 73.8 mph, max 115.0 mph ===
+Result: offtrack at tick 173, route idx 1
+Backed off speed in waypoints [0, 13) around the failure point.
+
+=== Iteration 8/8 | avg 73.8 mph, max 115.0 mph ===
+Result: offtrack at tick 202, route idx 1
+Backed off speed in waypoints [0, 13) around the failure point.
+ROAR_PY_CARLA: Cleaning up actor instance map
+
+Done. No iteration ever completed a full clean lap - nothing was saved. The failures weren't fixed by lowering speed, so this points to a control/logic issue rather than pure speed being too high (see the per-iteration failure locations above).
+ROAR_PY_CARLA: Cleaning up actor instance map

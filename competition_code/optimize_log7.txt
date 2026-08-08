@@ -1,0 +1,54 @@
+Loaded 2687 route points, starting avg 73.9 mph, max 115.0 mph
+WARNING: Version mismatch detected: You are trying to connect to a simulator that might be incompatible with this API 
+WARNING: Client API version     = 0.9.12 
+WARNING: Simulator API version  = 0.9.12-dirty 
+
+=== Iteration 1/20 | avg 73.9 mph, max 115.0 mph ===
+Result: collision at tick 2318, route idx 1045
+Backed off speed in waypoints [1000, 1090) around the failure point.
+
+=== Iteration 2/20 | avg 73.4 mph, max 115.0 mph ===
+Result: collision at tick 993, route idx 429
+Backed off speed in waypoints [384, 474) around the failure point.
+
+=== Iteration 3/20 | avg 73.1 mph, max 115.0 mph ===
+Result: collision at tick 980, route idx 397
+Backed off speed in waypoints [352, 442) around the failure point.
+
+=== Iteration 4/20 | avg 72.6 mph, max 115.0 mph ===
+Result: collision at tick 912, route idx 369
+Backed off speed in waypoints [324, 414) around the failure point.
+
+=== Iteration 5/20 | avg 72.2 mph, max 115.0 mph ===
+Result: collision at tick 946, route idx 395
+Backed off speed in waypoints [350, 440) around the failure point.
+
+=== Iteration 6/20 | avg 71.9 mph, max 115.0 mph ===
+Result: collision at tick 785, route idx 294
+Backed off speed in waypoints [249, 339) around the failure point.
+
+=== Iteration 7/20 | avg 71.5 mph, max 115.0 mph ===
+Result: collision at tick 2682, route idx 1073
+Backed off speed in waypoints [1028, 1118) around the failure point.
+
+=== Iteration 8/20 | avg 71.1 mph, max 115.0 mph ===
+Result: collision at tick 2741, route idx 1085
+Backed off speed in waypoints [1040, 1130) around the failure point.
+
+=== Iteration 9/20 | avg 70.6 mph, max 115.0 mph ===
+Result: collision at tick 2970, route idx 1216
+Backed off speed in waypoints [1171, 1261) around the failure point.
+
+=== Iteration 10/20 | avg 70.1 mph, max 115.0 mph ===
+Result: collision at tick 2941, route idx 1210
+Backed off speed in waypoints [1165, 1255) around the failure point.
+
+=== Iteration 11/20 | avg 69.6 mph, max 115.0 mph ===
+Result: collision at tick 2907, route idx 1209
+Backed off speed in waypoints [1164, 1254) around the failure point.
+
+=== Iteration 12/20 | avg 69.2 mph, max 115.0 mph ===
+Result: collision at tick 3994, route idx 1738
+Backed off speed in waypoints [1693, 1783) around the failure point.
+
+=== Iteration 13/20 | avg 68.7 mph, max 115.0 mph ===
