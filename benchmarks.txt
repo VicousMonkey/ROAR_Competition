@@ -1,0 +1,181 @@
+  Last waypoint reached : 2769 / 2775
+  Reached at            : 392.15s (sim time)
+  Total run time (sim)  : 392.20s
+  Total run time (wall) : 303.91s
+  Simulation steps      : 7844  (fixed 50ms/step by definition)
+  Laps completed        : 3
+      lap 1 : 2.00s (sim time)
+      lap 2 : 133.05s (sim time)
+      lap 3 : 128.80s (sim time)
+  Best lap              : 2.00s
+  Total of laps         : 263.85s
+  Max speed             : 61.1 m/s  (220 km/h)
+  Collision events      : 0
+    
+    MU_LATERAL = 2.50        # cornering grip. Higher = faster corners = more spin risk.
+    A_BRAKE = 12.0            # m/s^2 assumed braking. Higher = brakes later.
+    A_ACCEL = 6.0            # m/s^2 assumed acceleration out of corners.
+    V_MAX = 65.0             # m/s hard ceiling on target speed.
+    V_MIN = 14.0             # m/s floor - never crawl, even in hairpins.
+
+    CURVATURE_STRIDE_M = 6.0     # metres between the 3 points used to measure a corner.
+    CURVATURE_SMOOTH_M = 12.0    # metres of moving-average smoothing on curvature.
+
+    LOOKAHEAD_BASE_M = 7.0   # metres of lookahead at a standstill.
+    LOOKAHEAD_GAIN_S = 0.7  # extra lookahead metres per m/s of speed.
+    LOOKAHEAD_MAX_M = 40.0
+
+    STEER_GAIN = 6.5         # steering aggressiveness.
+    STEER_SPEED_EXP = 0.5    # how much steering softens with speed (0.5 = sqrt).
+
+    THROTTLE_KP = 0.22       # throttle response to being under target speed.
+    BRAKE_KP = 0.28          # brake response to being over target speed.
+    SPEED_DEADBAND = 0.5     # m/s tolerance before doing anything.
+
+    STEER_THROTTLE_CUT = 0.55    # how much hard steering cuts throttle (0 = never).
+
+  Last waypoint reached : 2769 / 2775
+  Reached at            : 375.65s (sim time)
+  Total run time (sim)  : 375.65s
+  Total run time (wall) : 288.45s
+  Simulation steps      : 7513  (fixed 50ms/step by definition)
+  Laps completed        : 3
+      lap 1 : 2.00s (sim time)
+      lap 2 : 127.80s (sim time)
+      lap 3 : 123.20s (sim time)
+  Best lap              : 2.00s
+  Total of laps         : 253.00s
+  Max speed             : 71.4 m/s  (257 km/h)
+  Collision events      : 0
+
+    MU_LATERAL = 2.60        # cornering grip. Higher = faster corners = more spin risk.
+    A_BRAKE = 12.0            # m/s^2 assumed braking. Higher = brakes later.
+    A_ACCEL = 6.0            # m/s^2 assumed acceleration out of corners.
+    V_MAX = 120.0             # m/s hard ceiling on target speed.
+    V_MIN = 30.0             # m/s floor - never crawl, even in hairpins.
+
+    CURVATURE_STRIDE_M = 6.0     # metres between the 3 points used to measure a corner.
+    CURVATURE_SMOOTH_M = 12.0    # metres of moving-average smoothing on curvature.
+
+    LOOKAHEAD_BASE_M = 8.0   # metres of lookahead at a standstill.
+    LOOKAHEAD_GAIN_S = 1  # extra lookahead metres per m/s of speed.
+    LOOKAHEAD_MAX_M = 40.0
+
+    STEER_GAIN = 6.5         # steering aggressiveness.
+    STEER_SPEED_EXP = 0.5    # how much steering softens with speed (0.5 = sqrt).
+
+    THROTTLE_KP = 0.22       # throttle response to being under target speed.
+    BRAKE_KP = 0.28          # brake response to being over target speed.
+    SPEED_DEADBAND = 0.5     # m/s tolerance before doing anything.
+
+    STEER_THROTTLE_CUT = 0.55    # how much hard steering cuts throttle (0 = never).
+
+  Last waypoint reached : 2769 / 2775
+  Reached at            : 373.30s (sim time)
+  Total run time (sim)  : 373.30s
+  Total run time (wall) : 360.45s
+  Simulation steps      : 7466  (fixed 50ms/step by definition)
+  Laps completed        : 3
+      lap 1 : 2.00s (sim time)
+      lap 2 : 126.80s (sim time)
+      lap 3 : 122.50s (sim time)
+  Best lap              : 2.00s
+  Total of laps         : 251.30s
+  Max speed             : 71.4 m/s  (257 km/h)
+  Collision events      : 0
+
+    MU_LATERAL = 2.60        # cornering grip. Higher = faster corners = more spin risk.
+    A_BRAKE = 11.0            # m/s^2 assumed braking. Higher = brakes later.
+    A_ACCEL = 6.0            # m/s^2 assumed acceleration out of corners.
+    V_MAX = 120.0             # m/s hard ceiling on target speed.
+    V_MIN = 33.0             # m/s floor - never crawl, even in hairpins.
+
+    CURVATURE_STRIDE_M = 6.0     # metres between the 3 points used to measure a corner.
+    CURVATURE_SMOOTH_M = 12.0    # metres of moving-average smoothing on curvature.
+
+    LOOKAHEAD_BASE_M = 8.0   # metres of lookahead at a standstill.
+    LOOKAHEAD_GAIN_S = 1  # extra lookahead metres per m/s of speed.
+    LOOKAHEAD_MAX_M = 40.0
+
+    STEER_GAIN = 6.5         # steering aggressiveness.
+    STEER_SPEED_EXP = 0.5    # how much steering softens with speed (0.5 = sqrt).
+
+    THROTTLE_KP = 0.22       # throttle response to being under target speed.
+    BRAKE_KP = 0.28          # brake response to being over target speed.
+    SPEED_DEADBAND = 0.5     # m/s tolerance before doing anything.
+
+    STEER_THROTTLE_CUT = 0.55    # how much hard steering cuts throttle (0 = never).
+
+  Last waypoint reached : 2769 / 2775
+  Reached at            : 363.90s (sim time)
+  Total run time (sim)  : 363.90s
+  Total run time (wall) : 439.80s
+  ^ wall time is 1.2x sim time -> your machine is lagging behind
+    real-time. Sim time above is the number that matters for lap times.
+  Simulation steps      : 7278  (fixed 50ms/step by definition)
+  Laps completed        : 3
+      lap 1 : 2.00s (sim time)
+      lap 2 : 124.25s (sim time)
+      lap 3 : 119.15s (sim time)
+  Best lap              : 2.00s
+  Total of laps         : 245.40s
+  Max speed             : 71.4 m/s  (257 km/h)
+  Collision events      : 3
+
+    MU_LATERAL = 3.25       # cornering grip. Higher = faster corners = more spin risk. # Bounded by big turn
+    A_BRAKE = 11.25            # m/s^2 assumed braking. Higher = brakes later. # bounded by medium turn wobbling, doesn't help that much
+    A_ACCEL = 6.0            # m/s^2 assumed acceleration out of corners.
+    V_MAX = 120.0             # m/s hard ceiling on target speed.
+    V_MIN = 33.5             # m/s floor - never crawl, even in hairpins.
+
+    CURVATURE_STRIDE_M = 6.0     # metres between the 3 points used to measure a corner.
+    CURVATURE_SMOOTH_M = 12.0    # metres of moving-average smoothing on curvature.
+
+    LOOKAHEAD_BASE_M = 8.0   # metres of lookahead at a standstill.
+    LOOKAHEAD_GAIN_S = 0.65  # extra lookahead metres per m/s of speed. # lower bound by the big turn (too low it crashes), upper bound by the last turn (too high it crashes)
+    LOOKAHEAD_MAX_M = 40.0
+
+    STEER_GAIN = 6.25         # steering aggressiveness.
+    STEER_SPEED_EXP = 0.2    # how much steering softens with speed (0.5 = sqrt).
+
+    THROTTLE_KP = 0.22       # throttle response to being under target speed.
+    BRAKE_KP = 0.28          # brake response to being over target speed.
+    SPEED_DEADBAND = 0.5     # m/s tolerance before doing anything.
+
+    STEER_THROTTLE_CUT = 0    # how much hard steering cuts throttle (0 = never).
+
+  Last waypoint reached : 2769 / 2775
+  Reached at            : 360.85s (sim time)
+  Total run time (sim)  : 360.85s
+  Total run time (wall) : 323.58s
+  Simulation steps      : 7217  (fixed 50ms/step by definition)
+  Laps completed        : 3
+      lap 1 : 1.75s (sim time)
+      lap 2 : 122.65s (sim time)
+      lap 3 : 118.50s (sim time)
+  Best lap              : 1.75s
+  Total of laps         : 242.90s
+  Max speed             : 71.4 m/s  (257 km/h)
+  Collision events      : 0
+
+    MU_LATERAL = 3.2       # cornering grip. Higher = faster corners = more spin risk. # Bounded by big turn
+    A_BRAKE = 11.25            # m/s^2 assumed braking. Higher = brakes later. # bounded by medium turn wobbling, doesn't help that much
+    A_ACCEL = 6.0            # m/s^2 assumed acceleration out of corners.
+    V_MAX = 120.0             # m/s hard ceiling on target speed.
+    V_MIN = 33.75             # m/s floor - never crawl, even in hairpins.
+
+    CURVATURE_STRIDE_M = 6.0     # metres between the 3 points used to measure a corner.
+    CURVATURE_SMOOTH_M = 12.0    # metres of moving-average smoothing on curvature.
+
+    LOOKAHEAD_BASE_M = 8.0   # metres of lookahead at a standstill.
+    LOOKAHEAD_GAIN_S = 0.675  # extra lookahead metres per m/s of speed. # lower bound by the big turn (too low it crashes), upper bound by the last turn (too high it crashes)
+    LOOKAHEAD_MAX_M = 40.0
+
+    STEER_GAIN = 6.25         # steering aggressiveness.
+    STEER_SPEED_EXP = 0.2    # how much steering softens with speed (0.5 = sqrt).
+
+    THROTTLE_KP = 0.22       # throttle response to being under target speed.
+    BRAKE_KP = 0.28          # brake response to being over target speed.
+    SPEED_DEADBAND = 0.5     # m/s tolerance before doing anything.
+
+    STEER_THROTTLE_CUT = 0    # how much hard steering cuts throttle (0 = never).
